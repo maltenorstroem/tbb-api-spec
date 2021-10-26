@@ -1,0 +1,5 @@
+- type: 'transaction.TxEntity #Entitycontainer which holds a transaction.Tx'
+  fields:
+    data: 'transaction.Tx:1 #the data contains a transaction.Tx'
+    links: '[] furo.Link:2 #the Hateoas links'
+    meta: 'furo.Meta:3 #Meta for the response'

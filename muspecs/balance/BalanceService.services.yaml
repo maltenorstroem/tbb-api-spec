@@ -1,0 +1,6 @@
+- name: BalanceService
+  description: Services to interact with the blockchain database
+  package: balanceservice
+  target: balance.proto
+  methods:
+    - md: 'List: GET /balances google.protobuf.Empty , balance.BalanceCollection #List of all wallets'

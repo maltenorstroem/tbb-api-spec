@@ -1,0 +1,5 @@
+- type: 'balance.BalanceCollection #Collectioncontainer which holds records of type transaction.Tx'
+  fields:
+    meta: 'furo.Meta:3 #Meta for the response'
+    links: '[] furo.Link:2 #the Hateoas links'
+    entities: '[] transaction.TxEntity:1 #the data contains a transaction.Tx'

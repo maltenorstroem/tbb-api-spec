@@ -1,0 +1,6 @@
+- type: 'transaction.Tx  #Transaction type'
+  fields:
+    from: 'string:1 #transfer from'
+    to: 'string:2 #transfer to'
+    value: 'uint32:3 #amount of transfer'
+    data: 'string:4 #additional data e.g. reward'
